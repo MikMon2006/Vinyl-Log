@@ -1,0 +1,38 @@
+*{
+    font-family: "roca", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(248, 238, 199);
+    background-color:rgb(34, 68, 169);
+    }
+
+    ul {
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        text-align: center;
+        padding: 20px 10px;
+        text-decoration: none;
+    }
+
+    li a:hover:not(.active) {
+        background-color: rgb(24, 53, 139);
+    }
+    
+    li a.active {
+        color: rgb(230, 216, 162);
+        background-color: rgb(24, 53, 139);
+    }
+    
+    li a.button{
+        background-color: rgb(84, 114, 203);
+    }
