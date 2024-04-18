@@ -36,34 +36,3 @@ li a.active {
 li a.button{
     background-color: rgb(84, 114, 203);
 }
-
-
-form {
-    background-color: rgb(24, 53, 139);
-    width: 280px;
-    height: 40px;
-    border-radius: 100px;
-    display:flex;
-    flex-direction:row;
-    align-items:center;
-}
-
-input {
-    all: unset;
-    color: #fff;
-    height: 100%;
-    width: 100%;
-    padding: 7px 9px;
-}
-
-::placeholder {
-    color: #fff;
-    opacity: 0.7; 
-}
-
-button {
-    all: unset;
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-}
