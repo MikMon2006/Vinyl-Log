@@ -30,15 +30,32 @@
         <div class="col-11">
             <h1>All</h1>
         </div>
-        <div class="topnav col-9">
-            <input type="text" placeholder="Search..">
-        </div>
-    </div>
-    </div>
-    <div class="row">
         <div class="col">
+            <form id="form" role="search">
+                <input type="search" id="query" name="q"
+                placeholder="Search..."
+                aria-label="Search through site content">
+                <button>Search</button>
+            </form>
         </div>
     </div>
-
+    <div>
+        <h4>harry</h4>
+    </div>
+<script>
+    const f = document.getElementById('form');
+    const q = document.getElementById('query');
+    const google = 'https://www.google.com/search?q=site%3A+';
+    const site = '';
+    
+    function submitted(event) {
+        event.preventDefault();
+        const url = google + site + '+' + q.value;
+        const win = window.open(url, '_blank');
+        win.focus();
+    }
+    
+    f.addEventListener('submit', submitted);
+</script>
 </body>
 </html>
