@@ -43,7 +43,8 @@ li a.button{
     text-decoration: none;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 78px;
     padding-right: 78px;
     font-size: 20px;
